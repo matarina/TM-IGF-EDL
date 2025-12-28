@@ -1,0 +1,38 @@
+name: multimodal-hcc
+channels:
+  - conda-forge
+  - bioconda
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - pyyaml
+  - tqdm
+  - rich
+  - joblib
+  - matplotlib
+  - seaborn
+  - networkx
+  - biopython
+  - biotite
+  - gemmi
+  - psipred
+  - pip
+  - pip:
+      - --index-url https://download.pytorch.org/whl/cu118
+      - torch==2.4.1
+      - torchvision==0.19.1
+      - torchaudio==2.4.1
+      - -f https://data.pyg.org/whl/torch-2.4.1+cu118.html
+      - pyg_lib
+      - torch-scatter
+      - torch-sparse
+      - torch-cluster
+      - torch-spline-conv
+      - torch-geometric
+      - egnn-pytorch

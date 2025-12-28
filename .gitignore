@@ -1,0 +1,41 @@
+# Data
+data/
+dataset/
+
+# Model Weights
+esm2_t33_650M_UR50D/
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.h5
+
+# Logs and Outputs
+lightning_logs/
+wandb/
+runs/
+logs/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+conda-env/
+
+# IDE / Editor
+.vscode/
+.idea/
+.claude/
+.gemini/
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
