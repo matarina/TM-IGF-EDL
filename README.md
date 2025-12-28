@@ -13,8 +13,9 @@ A core innovation is the **Iterative Gated Fusion** mechanism that dynamically c
 
 ---
 
-## Architecture Schema
 
+## Architecture Schema
+<img width="2816" height="1536" alt="architecture" src="https://github.com/user-attachments/assets/fe2c1f98-71e9-497e-b1f9-6cc18116dae0" />
 ### 1. Inputs & Preprocessing
 *   **Sequence**: Amino acid sequences (length $L$). 
 *   **Structure**: 3D coordinates ($C\alpha$) from PDB files, converted into residue-level graphs with sequential, radius ($R < 12-15\text{Å}$), and k-NN edges. Includes backbone torsion angles ($\phi, \psi$) and pLDDT confidence scores.
